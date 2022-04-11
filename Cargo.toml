@@ -1,0 +1,13 @@
+[package]
+name = "midware-transfer"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+solana-program = "1.10"
+thiserror = "*"
+borsh = "*"
+
+[lib]
+crate-type = ["cdylib", "lib"]
